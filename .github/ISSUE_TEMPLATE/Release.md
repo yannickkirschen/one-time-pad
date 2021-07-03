@@ -18,7 +18,7 @@ assignees: yannickkirschen
 - [ ] Checkout branch `main` and pull latest changes:
     - `git checkout main`
     - `git pull origin main`
-- [ ] Set verion in `pom.xml` to `x.y.z`.
+- [ ] Set version in `pom.xml` to `x.y.z`.
 - [ ] Rename "Next" section in `CHANGELOG.md` to `x.y.z (Month Day, Year)`.
 - [ ] Commit and push your changes:
     - `git add .`
@@ -32,6 +32,7 @@ assignees: yannickkirschen
     - `git checkout main`
     - `git pull origin main`
 - [ ] Set version in `pom.xml` to `x.y+1.z-SNAPSHOT`.
+- [ ] Add "Next" section in `CHANGELOG.md`.
 - [ ] Commit and push your changes:
     - `git add .`
     - `git commit -s -m "build(release): next development release x.y+1.z"`
