@@ -25,6 +25,7 @@ assignees: yannickkirschen
     - `git commit -s -m "build(release): x.y.z"`
     - `git push origin main`
 - [ ] Check if all workflows succeeed.
+- [ ] Publish release `x.y.z`.
 
 ## Prepare next release
 
@@ -35,7 +36,7 @@ assignees: yannickkirschen
 - [ ] Add "Next" section in `CHANGELOG.md`.
 - [ ] Commit and push your changes:
     - `git add .`
-    - `git commit -s -m "build(release): next development release x.y+1.z"`
+    - `git commit -s -m "build(release): next development version x.y+1.z"`
     - `git push origin main`
 - [ ] Check if all workflows succeeed.
 
